@@ -1,0 +1,6 @@
+framework module Pods_QAirports {
+  umbrella header "Pods-QAirports-umbrella.h"
+
+  export *
+  module * { export * }
+}

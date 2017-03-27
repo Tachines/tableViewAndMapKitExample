@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CAFE61E76585600E2E656 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CAFE51E76585600E2E656 /* DetailPageViewController.swift */; };
+		180CAFE91E76679900E2E656 /* AnnotationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CAFE81E76679900E2E656 /* AnnotationData.swift */; };
+		181AEEEE1E76992A002098B9 /* AirportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AEEED1E76992A002098B9 /* AirportList.swift */; };
+		181AEEF01E76A9EE002098B9 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AEEEF1E76A9EE002098B9 /* DetailPage.swift */; };
+		184654701E7539E40066BC82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846546F1E7539E40066BC82 /* AppDelegate.swift */; };
+		184654721E7539E40066BC82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184654711E7539E40066BC82 /* ViewController.swift */; };
+		184654751E7539E40066BC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184654731E7539E40066BC82 /* Main.storyboard */; };
+		184654771E7539E40066BC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184654761E7539E40066BC82 /* Assets.xcassets */; };
+		1846547A1E7539E40066BC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184654781E7539E40066BC82 /* LaunchScreen.storyboard */; };
+		184654851E7539E40066BC82 /* QantasAirportGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184654841E7539E40066BC82 /* QantasAirportGuideTests.swift */; };
+		184654901E753D060066BC82 /* AirportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846548F1E753D060066BC82 /* AirportListViewController.swift */; };
+		184654931E753D420066BC82 /* AirportDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184654921E753D420066BC82 /* AirportDetailCell.swift */; };
+		18B0AE2B1E76082C001821FA /* AirportItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0AE2A1E76082C001821FA /* AirportItem.swift */; };
+		32048A54756C850A1C0338CB /* Pods_QAirports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC12878D4C3EB32CA342998E /* Pods_QAirports.framework */; };
+		AD771AAED4A80EB5F2300951 /* Pods_QAirportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EB9E6243FE3C099FD96582 /* Pods_QAirportsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184654811E7539E40066BC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184654641E7539E40066BC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1846546B1E7539E40066BC82;
+			remoteInfo = QantasAirportGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D34D3A8A01C92676B19096 /* Pods-QAirportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QAirportsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QAirportsTests/Pods-QAirportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		180CAFE51E76585600E2E656 /* DetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		180CAFE81E76679900E2E656 /* AnnotationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationData.swift; sourceTree = "<group>"; };
+		181AEEED1E76992A002098B9 /* AirportList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportList.swift; sourceTree = "<group>"; };
+		181AEEEF1E76A9EE002098B9 /* DetailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		1846546C1E7539E40066BC82 /* QAirports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QAirports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1846546F1E7539E40066BC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184654711E7539E40066BC82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184654741E7539E40066BC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184654761E7539E40066BC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184654791E7539E40066BC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1846547B1E7539E40066BC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184654801E7539E40066BC82 /* QAirportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QAirportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184654841E7539E40066BC82 /* QantasAirportGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasAirportGuideTests.swift; sourceTree = "<group>"; };
+		184654861E7539E40066BC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846548F1E753D060066BC82 /* AirportListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportListViewController.swift; sourceTree = "<group>"; };
+		184654921E753D420066BC82 /* AirportDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailCell.swift; sourceTree = "<group>"; };
+		18B0AE2A1E76082C001821FA /* AirportItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportItem.swift; sourceTree = "<group>"; };
+		275CA295C953A757F48D5502 /* Pods-QantasAirportGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QantasAirportGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QantasAirportGuide/Pods-QantasAirportGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		6ADED552404904280D1B9A70 /* Pods-QAirportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QAirportsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QAirportsTests/Pods-QAirportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		718BC712C1843CDBBFD67167 /* Pods-QAirports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QAirports.release.xcconfig"; path = "Pods/Target Support Files/Pods-QAirports/Pods-QAirports.release.xcconfig"; sourceTree = "<group>"; };
+		90BA9109784725C285C0E6EC /* Pods-QAirports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QAirports.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QAirports/Pods-QAirports.debug.xcconfig"; sourceTree = "<group>"; };
+		90EB9E6243FE3C099FD96582 /* Pods_QAirportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAirportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6516D3E5CC456EF3DCFBA7 /* Pods_QantasAirportGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QantasAirportGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B419C22EAE31A2427AB0FDE4 /* Pods-QantasAirportGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QantasAirportGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-QantasAirportGuide/Pods-QantasAirportGuide.release.xcconfig"; sourceTree = "<group>"; };
+		EC12878D4C3EB32CA342998E /* Pods_QAirports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAirports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184654691E7539E40066BC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32048A54756C850A1C0338CB /* Pods_QAirports.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846547D1E7539E40066BC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD771AAED4A80EB5F2300951 /* Pods_QAirportsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180CAFE71E765D6600E2E656 /* DetailOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				180CAFE51E76585600E2E656 /* DetailPageViewController.swift */,
+				180CAFE81E76679900E2E656 /* AnnotationData.swift */,
+			);
+			name = DetailOnMap;
+			sourceTree = "<group>";
+		};
+		184654631E7539E40066BC82 = {
+			isa = PBXGroup;
+			children = (
+				1846546E1E7539E40066BC82 /* QantasAirportGuide */,
+				184654831E7539E40066BC82 /* QantasAirportGuideTests */,
+				1846546D1E7539E40066BC82 /* Products */,
+				7885E2E1B32290D62C4B202A /* Pods */,
+				BB9D7008D62B3252FBF4DCB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1846546D1E7539E40066BC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1846546C1E7539E40066BC82 /* QAirports.app */,
+				184654801E7539E40066BC82 /* QAirportsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1846546E1E7539E40066BC82 /* QantasAirportGuide */ = {
+			isa = PBXGroup;
+			children = (
+				180CAFE71E765D6600E2E656 /* DetailOnMap */,
+				184654911E753D190066BC82 /* AirportList */,
+				1846546F1E7539E40066BC82 /* AppDelegate.swift */,
+				184654711E7539E40066BC82 /* ViewController.swift */,
+				18B0AE2A1E76082C001821FA /* AirportItem.swift */,
+				184654731E7539E40066BC82 /* Main.storyboard */,
+				184654761E7539E40066BC82 /* Assets.xcassets */,
+				184654781E7539E40066BC82 /* LaunchScreen.storyboard */,
+				1846547B1E7539E40066BC82 /* Info.plist */,
+			);
+			path = QantasAirportGuide;
+			sourceTree = "<group>";
+		};
+		184654831E7539E40066BC82 /* QantasAirportGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				184654841E7539E40066BC82 /* QantasAirportGuideTests.swift */,
+				181AEEED1E76992A002098B9 /* AirportList.swift */,
+				181AEEEF1E76A9EE002098B9 /* DetailPage.swift */,
+				184654861E7539E40066BC82 /* Info.plist */,
+			);
+			path = QantasAirportGuideTests;
+			sourceTree = "<group>";
+		};
+		184654911E753D190066BC82 /* AirportList */ = {
+			isa = PBXGroup;
+			children = (
+				1846548F1E753D060066BC82 /* AirportListViewController.swift */,
+				184654921E753D420066BC82 /* AirportDetailCell.swift */,
+			);
+			name = AirportList;
+			sourceTree = "<group>";
+		};
+		7885E2E1B32290D62C4B202A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275CA295C953A757F48D5502 /* Pods-QantasAirportGuide.debug.xcconfig */,
+				B419C22EAE31A2427AB0FDE4 /* Pods-QantasAirportGuide.release.xcconfig */,
+				90BA9109784725C285C0E6EC /* Pods-QAirports.debug.xcconfig */,
+				718BC712C1843CDBBFD67167 /* Pods-QAirports.release.xcconfig */,
+				6ADED552404904280D1B9A70 /* Pods-QAirportsTests.debug.xcconfig */,
+				12D34D3A8A01C92676B19096 /* Pods-QAirportsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB9D7008D62B3252FBF4DCB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C6516D3E5CC456EF3DCFBA7 /* Pods_QantasAirportGuide.framework */,
+				EC12878D4C3EB32CA342998E /* Pods_QAirports.framework */,
+				90EB9E6243FE3C099FD96582 /* Pods_QAirportsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1846546B1E7539E40066BC82 /* QAirports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184654891E7539E40066BC82 /* Build configuration list for PBXNativeTarget "QAirports" */;
+			buildPhases = (
+				5339C36F7B68931F466E58C0 /* [CP] Check Pods Manifest.lock */,
+				184654681E7539E40066BC82 /* Sources */,
+				184654691E7539E40066BC82 /* Frameworks */,
+				1846546A1E7539E40066BC82 /* Resources */,
+				F1ADFD2AB810F7093B8C0334 /* [CP] Embed Pods Frameworks */,
+				89AC76AE2DBBFFC9A79507D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QAirports;
+			productName = QantasAirportGuide;
+			productReference = 1846546C1E7539E40066BC82 /* QAirports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1846547F1E7539E40066BC82 /* QAirportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1846548C1E7539E40066BC82 /* Build configuration list for PBXNativeTarget "QAirportsTests" */;
+			buildPhases = (
+				80B99E3480DE6E864C1A4340 /* [CP] Check Pods Manifest.lock */,
+				1846547C1E7539E40066BC82 /* Sources */,
+				1846547D1E7539E40066BC82 /* Frameworks */,
+				1846547E1E7539E40066BC82 /* Resources */,
+				8C498853BFD542D0DF065C90 /* [CP] Embed Pods Frameworks */,
+				277441EF4A2C498F99841A0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184654821E7539E40066BC82 /* PBXTargetDependency */,
+			);
+			name = QAirportsTests;
+			productName = QantasAirportGuideTests;
+			productReference = 184654801E7539E40066BC82 /* QAirportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184654641E7539E40066BC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tac;
+				TargetAttributes = {
+					1846546B1E7539E40066BC82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8M53443RR5;
+						ProvisioningStyle = Automatic;
+					};
+					1846547F1E7539E40066BC82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8M53443RR5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1846546B1E7539E40066BC82;
+					};
+				};
+			};
+			buildConfigurationList = 184654671E7539E40066BC82 /* Build configuration list for PBXProject "QAirports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184654631E7539E40066BC82;
+			productRefGroup = 1846546D1E7539E40066BC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1846546B1E7539E40066BC82 /* QAirports */,
+				1846547F1E7539E40066BC82 /* QAirportsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1846546A1E7539E40066BC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846547A1E7539E40066BC82 /* LaunchScreen.storyboard in Resources */,
+				184654771E7539E40066BC82 /* Assets.xcassets in Resources */,
+				184654751E7539E40066BC82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846547E1E7539E40066BC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277441EF4A2C498F99841A0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QAirportsTests/Pods-QAirportsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5339C36F7B68931F466E58C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80B99E3480DE6E864C1A4340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89AC76AE2DBBFFC9A79507D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QAirports/Pods-QAirports-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C498853BFD542D0DF065C90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QAirportsTests/Pods-QAirportsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1ADFD2AB810F7093B8C0334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QAirports/Pods-QAirports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184654681E7539E40066BC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CAFE61E76585600E2E656 /* DetailPageViewController.swift in Sources */,
+				184654721E7539E40066BC82 /* ViewController.swift in Sources */,
+				184654901E753D060066BC82 /* AirportListViewController.swift in Sources */,
+				180CAFE91E76679900E2E656 /* AnnotationData.swift in Sources */,
+				184654931E753D420066BC82 /* AirportDetailCell.swift in Sources */,
+				18B0AE2B1E76082C001821FA /* AirportItem.swift in Sources */,
+				184654701E7539E40066BC82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846547C1E7539E40066BC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181AEEF01E76A9EE002098B9 /* DetailPage.swift in Sources */,
+				184654851E7539E40066BC82 /* QantasAirportGuideTests.swift in Sources */,
+				181AEEEE1E76992A002098B9 /* AirportList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184654821E7539E40066BC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1846546B1E7539E40066BC82 /* QAirports */;
+			targetProxy = 184654811E7539E40066BC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184654731E7539E40066BC82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184654741E7539E40066BC82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184654781E7539E40066BC82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184654791E7539E40066BC82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184654871E7539E40066BC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184654881E7539E40066BC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1846548A1E7539E40066BC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BA9109784725C285C0E6EC /* Pods-QAirports.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8M53443RR5;
+				INFOPLIST_FILE = QantasAirportGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacQantasDemo.QantasAirportGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1846548B1E7539E40066BC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718BC712C1843CDBBFD67167 /* Pods-QAirports.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8M53443RR5;
+				INFOPLIST_FILE = QantasAirportGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacQantasDemo.QantasAirportGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1846548D1E7539E40066BC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADED552404904280D1B9A70 /* Pods-QAirportsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8M53443RR5;
+				INFOPLIST_FILE = QantasAirportGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacQantasDemo.QantasAirportGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QAirports.app/QAirports";
+			};
+			name = Debug;
+		};
+		1846548E1E7539E40066BC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D34D3A8A01C92676B19096 /* Pods-QAirportsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8M53443RR5;
+				INFOPLIST_FILE = QantasAirportGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacQantasDemo.QantasAirportGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QAirports.app/QAirports";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184654671E7539E40066BC82 /* Build configuration list for PBXProject "QAirports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184654871E7539E40066BC82 /* Debug */,
+				184654881E7539E40066BC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184654891E7539E40066BC82 /* Build configuration list for PBXNativeTarget "QAirports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846548A1E7539E40066BC82 /* Debug */,
+				1846548B1E7539E40066BC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1846548C1E7539E40066BC82 /* Build configuration list for PBXNativeTarget "QAirportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846548D1E7539E40066BC82 /* Debug */,
+				1846548E1E7539E40066BC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184654641E7539E40066BC82 /* Project object */;
+}
